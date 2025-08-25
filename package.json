@@ -1,0 +1,29 @@
+{
+  "name": "react-vite-spa-koyeb",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "description": "React Vite SPA optimized for Koyeb Docker deployment",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port ${PORT:-3000}",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-8000}",
+    "serve": "vite preview --host 0.0.0.0 --port ${PORT:-8000}"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
+}
